@@ -1,0 +1,85 @@
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+#itens ul{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+#itens li{
+  flex: 0 0 33.3333%;
+}
+
+#bonito {
+  width: 25%;
+  margin: auto;
+}
+
+#item {
+  color: black;
+  text-decoration: none;
+}
+
+#login {
+  color: white;
+  text-decoration: none;
+}
+
+#fudeu {
+  margin: 5px;
+}
+
+#dados {
+  height: 500px;
+  width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: gray;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#cadastro {
+  color: white;
+  text-align: center;
+}
+
+.cadastroFundo {
+  background: #00000044 url(/img/fundo.png);
+  background-blend-mode: darken;
+  background-size: 1360px 670px;
+}
+
+#itemShow {
+  width: 80%;
+  justify-content: left;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+#comprar{
+  margin: 150px;
+}
+
+#comprado{
+  color: black;
+  text-decoration: none;
+}
+
+#capitalismo {
+  margin: 20px auto auto auto;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
